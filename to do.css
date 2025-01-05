@@ -1,0 +1,77 @@
+body{
+    font-family: Arial;
+  /*  text-align: center;*/
+  justify-content: center;
+
+}
+
+#main-heading{
+    text-align: center;
+    text-transform: capitalize;
+
+}
+.grid-container{
+    margin-left: 36%;
+    display: grid;
+    grid-template-columns: 200px 150px 100px;
+    column-gap: 10px;
+    row-gap: 10px;
+    margin-top: 10px;
+    align-items: center;
+}
+#input-box,#input-date{
+    font-size: 15px;
+    background-color:hsla(0, 4%, 95%, 0.884);
+    border-radius: 10px;
+    border: transparent;
+    padding: 15px 5px;
+}
+.btn-delete{
+    background-color:rgba(255,0,0,0.8);
+    height: 50px;
+    border: transparent;
+    cursor: pointer;
+    border-radius: 10px;
+}
+.btn-add{
+    background-color:rgba(0,255,0,0.4);
+    height: 50px;
+    border: transparent;
+    border-radius: 10px;
+    cursor: pointer;
+
+}
+.btn-add:active{
+    background-color:rgba(255,0,0,0.2);
+
+}
+.btn-delete:active{
+    background-color: rgba(255,0,0,0.2);
+}
+
+@media screen and (min-width:375px) and (max-width:819px) {
+    .grid-container{
+        margin-left: 0%;
+    }
+    
+}
+@media screen and (min-width:360px) and (max-width:740px) {
+    .grid-container{
+        margin-left: 0%;
+    }
+    
+}
+
+
+@media screen and (max-width:1024px){
+    .grid-container{
+        margin-left: 17%;
+    }
+    
+}
+@media screen and (min-width:820px) and (max-width:1180px){
+    .grid-container{
+        margin-left: 22%;
+    }
+    
+}
