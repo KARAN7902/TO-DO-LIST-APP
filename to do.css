@@ -48,6 +48,10 @@ body{
 .btn-delete:active{
     background-color: rgba(255,0,0,0.2);
 }
+.btn:hover{
+    background-color: rgba(255,0,0,0.1);
+
+}
 
 @media screen and (min-width:375px) and (max-width:819px) {
     .grid-container{
@@ -55,7 +59,7 @@ body{
     }
     
 }
-@media screen and (min-width:360px) and (max-width:740px) {
+/* @media screen and (min-width:360px) and (max-width:740px) {
     .grid-container{
         margin-left: 0%;
     }
@@ -74,4 +78,4 @@ body{
         margin-left: 22%;
     }
     
-}
+} */

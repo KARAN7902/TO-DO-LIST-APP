@@ -34,7 +34,7 @@ function displaytodo()
       //accessing the data in to the list
         newHtml+=`
         <span>${item}</span><span>${duedate}</span>
-        <button  class="btn-delete" onclick="deleteTodo(${i});">Delete</button> 
+        <button  class="btn-delete btn" onclick="deleteTodo(${i});">Delete</button> 
         `;
     }
     containerElement.innerHTML=newHtml;
